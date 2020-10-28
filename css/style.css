@@ -1,0 +1,51 @@
+.title {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;    
+    margin-top: 50px;
+}
+.title h1{
+    font-family: 'Comfortaa', cursive;
+    color: #FFFFFF;
+}
+.title h1 span{
+    color: #CDA45E;
+}
+
+.title .line{
+    border: solid;
+    width: 150px;
+    height: 5px;
+    color: #CDA45E;
+    border-radius: 50%;
+    display: block;
+    margin-left: 530px;
+    margin-top: 10px;
+}
+.cards{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cards h5{
+    color:#CDA45E ;
+}
+.cards button{
+    background-color: black;
+    border: solid  #CDA45E ;
+    height: 40px;
+    border-radius: 30px;
+}
+.cards button a{
+    margin: 15px;
+    color: white;
+}
+.cards button:hover{
+    background-color:#CDA45E ;
+}
+
+}
