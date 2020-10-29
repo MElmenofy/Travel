@@ -30,6 +30,7 @@
     justify-content: center;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .cards h5{
     color:#CDA45E ;
@@ -48,4 +49,114 @@
     background-color:#CDA45E ;
 }
 
+
+/* footer */
+.footer{
+    border-top: 1px solid #C1A45E !important;
+    font-size: 16px;
+    padding: 20px 0 30px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: black;
 }
+.footer .header{
+    margin-bottom: 50px;
+}
+.footer .footer-title {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .footer .footer-title a {
+    color: #fff;
+  }
+  
+  .footer .footer-title img {
+    max-height: 40px;
+  }
+
+  .calender-icon{
+    color: #C1A45E;
+  }
+.p-text{
+    font-size: 18px;
+    font-family: 'Crimson Text',serif;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+.card-title-news{
+    transition: .5s;
+}
+.card-title-news:hover{
+    cursor: pointer;
+    color: #C1A45E;
+}
+.btn-dark{    
+    border: none !important;
+    font-size: 18px;
+    background: #28251f !important;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 100% !important;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s;
+}
+.btn-dark:hover{
+    background-color: #C1A45E !important;
+}
+.footer-title2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.hero-form {
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 700px) {
+    .hero-form {
+      margin-top: 2rem;
+    }
+  }
+  
+  .hero-form-input {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 400px) {
+    .hero-form-input {
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+  }
+  
+  .hero-email-input {
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .hero-form-submit {
+    background-color: #CDA45E;
+    color: #fff;
+    border: none;
+    padding: 8px 8px;
+    margin-top: 0.5rem;
+  }
+  
+  @media (min-width: 400px) {
+    .hero-form-submit {
+      margin-top: 0;
+    }
+  }
+  
